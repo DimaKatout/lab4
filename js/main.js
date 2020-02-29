@@ -94,28 +94,27 @@ function guessNum() {
     for (var i = 0; i <= 3; i++) {
         var num = prompt('guess a number please');
         if (num == 10) {
-            {
-                var n = alert('bravoooooo');
-                sum = sum + 1;
-                return n;
+            var n = alert('bravoooooo');
+            sum = sum + 1;
+            return n;
 
-                break;
-            }
+            break;
         }
-
 
 
         else if (num > 10) {
-            var nu = alert('too high');
-            return nu;
+            var n = alert('too high');
+            //return n;
         }
         else if (num < 10) {
-            var numm = alert('too low ');
-            returnnumm;
+            var n = alert('too low ');
+            //return n;
         }
+    return n;
     }
-    alert('the awnser is 10');
 }
+alert('the awnser is 10');
+
 
 function oddNumber() {
     var arr = [1, 3, 5, 7, 9];
@@ -131,8 +130,8 @@ function oddNumber() {
 
             for (var j = 0; j < arr.length; j++) {
                 var oddNum = prompt('guess an even number less than 11 and bigger than zero ');
-                console.log(arr[i]);
-                console.log(i);
+                //console.log(arr[i]);
+                //console.log(i);
                 //console(oddNum);
                 if (oddNum == arr[i]) {
                     var o = alert('you got it correct');
@@ -173,7 +172,7 @@ function playGame() {
 playGame();
 
 alert('you got  ' + sum + '  out of 7');
-alert('the possible awnsers is 2 ,4 ,6 ,8 ,10 ');
+alert('the possible awnsers is 1 ,3 ,5 ,7 ,9 ');
 alert('thank you for visiting ');
 
 
